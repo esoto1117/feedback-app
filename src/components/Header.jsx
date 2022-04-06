@@ -2,7 +2,7 @@ import PropTypes from 'prop-types'
 
 function Header({ text }) {
   return (
-    <header text={true}>
+    <header>
         <div className="container">
             <h2>{text}</h2>
         </div>
